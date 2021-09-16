@@ -19,7 +19,6 @@ const criarTarfefa = (evento) => {
     tarefa.innerHTML = conteudo
 
     tarefa.appendChild(ButtonConcluir())
-    tarefa.appendChild(ButtonRemover())
 
     lista.appendChild(tarefa)
 }
